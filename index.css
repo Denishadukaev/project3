@@ -1,0 +1,450 @@
+
+
+*{
+    margin: 0;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 247px 1fr 340px;
+    grid-template-rows: 982px 1fr;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+}
+.sidebar-menu{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:#201E43 ;
+    padding: 40px;
+    position: relative;
+}
+.main{
+    background-color:#0C0B2F;
+    padding: 40px;
+}
+.rightside{
+    background-color:#0C0B2F;
+    position: relative;
+    padding: 20px;
+}
+.logo-name{
+    display: grid;
+    grid-template-columns: 35px 96px;
+    grid-template-rows: 35px 27px;
+    color: #F5F4FB;
+    font-weight: bold;
+}
+.leonard{
+    align-self: center;
+    justify-self: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 17px 180px;
+    grid-template-rows: 17px 20px 18px;
+    gap: 10px;
+    row-gap: 30px;
+    margin-top: 20px;
+    color:#727190;
+}
+.dashboard, .portfolio{
+    grid-column-start: 2;
+}
+.market-image{
+    justify-self: end;
+    align-self: center;
+}
+.market{
+    position: relative;
+}
+.pro{
+    position: absolute;
+    left: 100px
+}
+.port-grid{
+    display: grid;
+    grid-template-columns: 95px;
+    grid-template-rows: 28px;
+    color: #727190;
+    margin-top: 65px;
+}
+.pro-links{
+    grid-template-columns: 17px 180px;
+    grid-template-rows: 17px 20px 18px;
+    display: grid;
+    gap: 10px;
+    row-gap: 30px;
+    color:#727190;
+    margin-top: 25px;
+}
+.history-image{
+    justify-self: center;
+}
+.balance{
+    position: absolute;
+    bottom: 31px;
+    left: 25px;
+}
+.inp{
+    display: grid;
+    grid-template-columns: 589px ;
+    grid-template-rows: 48px ;
+    align-items: center;
+}
+.creator{
+    justify-self: end;
+}
+input{
+    background-color: #201E43;
+    width: 490px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 60px;
+}
+.search{
+    background-color:#201E43;
+    border-radius: 10px;
+    position: relative;
+}
+.search img{
+    position: absolute;
+    top: 10px;
+    margin-left: 26px;
+}
+input:focus{
+    outline: none;
+}
+.trend{
+    display: grid;
+    grid-template-columns: 420px 320px;
+    margin-top: 70px;
+}
+.nft{
+    font-size: 20px;
+    color:  #F5F4FB;   
+}
+.main-links{
+    color: #F5F4FB;
+    font-size: #ECEBF6;
+    display: grid;
+    grid-template-columns: 25px 47px 97px 79px;
+    grid-template-rows: 21px 21px 21px 21px;
+    column-gap: 55px;
+    align-items: end;
+    padding-top: 7px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 252px;
+    grid-template-rows: 329px;
+    gap: 25px;
+    position: relative;
+}
+.card1,.card2,.card3{
+    background-color: #201E43;
+    border-radius: 10px;
+    padding:9px 8px 28px 7px
+}
+.card2{
+    grid-column-start: 2;
+    background-image: url(../img/flower90.svg);
+    background-position: 50% 9%;
+    background-repeat: no-repeat;
+    
+}
+.card3{
+    grid-column-start: 3;
+    background-image: url(../img/Rectangle\ 13.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 9%;
+}
+.card1{
+    background-image: url(../img/Rectangle\ 12.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 9%;
+}
+.bookmark{
+   position: absolute;
+   left: 210px;
+   top: 25px;
+}
+.back{
+    position: absolute;
+    left: 202px;
+    top: 19px;
+}
+.days{
+    position: absolute;
+    bottom: 112px;
+    left: 15px;
+}
+p{
+    position: absolute;
+    bottom: 60px;
+    color: #ECEBF6;
+    font-size: 18px;
+    font-weight: 500;
+    left: 15px;
+}
+.cur{
+    bottom: 26px;
+    color: #ECEBF6;
+    font-size: 12px;
+    left: 15px;
+}
+.bid{
+    position:absolute;
+    bottom: 26px;
+    left: 100px;
+}
+.bookmark-two{
+    position: absolute;
+    top: 25px;
+    left: 498px;
+}
+.daysleft{
+    position: absolute;
+    bottom: 107px;
+    left: 300px;
+}
+.five-days{
+    position: absolute;
+    bottom: 112px;
+    left: 310px;
+}
+.bookback{
+    position: absolute;
+    top: 20px;
+    left: 490px;
+}
+.two{
+    position: absolute;
+    bottom: 60px;
+    left: 300px;
+    font-size: 18px;
+}
+.curtwo{
+    position: absolute;
+    bottom: 26px;
+    left: 300px;
+    font-size: 12px;
+}
+.bid2{
+    position: absolute;
+    bottom: 26px;
+    left: 388px;
+}
+.back3{
+    position: absolute;
+    top: 19px;
+    right: 27px;
+}
+.bookmark3{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+.three{
+    position: absolute;
+    bottom: 60px;
+    left: 600px;
+    font-size: 18px;
+}
+.cur3{
+    position: absolute;
+    bottom: 26px;
+    left: 600px;
+    font-size: 12px;
+}
+.days3{
+    position: absolute;
+    bottom: 107px;
+    right: 187px;
+}
+.bid3{
+    position: absolute;
+    bottom: 26px;
+    right: 85px;
+}
+.nfts{
+    color: #ECEBF6;
+    font-size: 24px;
+    font-weight: 600;
+}
+.top{
+    display: grid;
+    grid-template-columns: 420px 423px;
+    grid-template-rows: 21px 21px;
+    margin-top: 40px;
+}
+.alltimes{
+    display: grid;
+    justify-content: end;
+}
+select{
+    background-color: #201E43;
+    color: #ECEBF6;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+.maintable{
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:left;
+    background-color: #201E43;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.maintable th{
+    font-weight:normal;
+    font-size:14px;
+    ;
+}
+.maintable td{
+    font-size:13px;
+    color: #ECEBF6;
+}
+.maintable td,.maintable th{
+    /* white-space:pre-wrap; */
+    padding:10px 5px;
+    line-height:13px;
+    /* vertical-align: middle; */
+}
+.padding{
+    text-align: center;
+}
+.account{
+    display: grid;
+    grid-template-columns: 50px 120px 91px 46px;
+    color: #ECEBF6;
+    margin-top: 27px;
+}
+.down-arrow{
+    position: absolute;
+    top: 53px;
+    right: 115px;
+}
+.bell{
+    position: absolute;
+    right: 20px;
+    top:42px;
+}
+.right-art{
+    width: auto;
+    height: 403px;
+    background-color: #201E43;
+    margin-top: 68px;
+    border-radius: 12px;
+    padding-top:  21px;
+    padding-left: 10px;
+    background-image: url(../img/circle\ art.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 37%;
+    position: relative;
+}
+.recent{
+    display: grid;
+    grid-template-columns: 150px 100px;
+    color: #ECEBF6;
+    margin-bottom: 20px;
+}
+.see{
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #727190;
+}
+.right-text{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.time{
+    position: absolute;
+    bottom: 70px;
+    left: 12px;
+}
+.time-back{
+    position: absolute;
+    bottom: 63.50px;
+    left: 0px;
+}
+.cur4{
+    font-size: 14px;
+}
+.art-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.circle-text{
+    display: grid;
+    grid-template-rows: 280px 48px;
+    align-items: end;
+    color: #ECEBF6;
+}
+.bid-five{
+    position: absolute;
+    bottom: 33px;
+    left: 105px;
+}
+.social{
+    width: 300px;
+    height: 370px;
+    background-color: #201E43;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-left: -9px;
+}
+.social-top{
+    display: grid;
+    grid-template-columns: 215px 55px;
+    padding: 15px;
+    align-items: end;
+}
+.topcre{
+    padding-left: 1px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #ECEBF6;
+}
+.seeall{
+    font-weight: 500px;
+    font-size: 14px;
+    color: #727190;
+}
+.accounts1{
+    display: grid;
+    grid-template-columns: 70px 118px 110px;
+    grid-template-rows: 75px 75px 75px 75px;
+    padding: 15px;
+    padding-left: 5px;
+}
+.avatars, .avatars2, .avatars3, .avatars4{
+    padding-left: 10px;
+}
+button{
+    margin-left: 10px;  
+    margin-top: 5px;
+    width: 90px;
+    height: 35px;
+    background-color: rgba(130, 112, 235, 0.2);
+    color: #ECEBF6;
+    border: none;
+    border-radius: 10px;
+}
+.id-small{
+    color: #727190;
+}
+.acc-name, .acc-name2, .acc-name3, .acc-name4{
+    margin-top: 5px;
+    color: #ECEBF6;
+}
